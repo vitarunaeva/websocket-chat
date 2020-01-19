@@ -1,0 +1,13 @@
+{
+  "name": "sockchat",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon backend/index.js --watch backend/index.js"
+  },
+  "dependencies": {
+    "cookie": "^0.4.0",
+    "cors": "^2.8.5",
+    "nodemon": "^2.0.1"
+  }
+}
